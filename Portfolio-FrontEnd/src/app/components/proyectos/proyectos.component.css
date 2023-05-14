@@ -1,9 +1,0 @@
-#proyectos{
-    background-image: url(../../../assets/fondo.png);
-    background-size: 100vw;
-}
-@media (max-width: 650px) {
-    #proyectos{
-      background-image: none;
-    }
-}
