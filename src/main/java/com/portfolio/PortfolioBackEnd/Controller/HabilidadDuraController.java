@@ -32,7 +32,7 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @RestController
 @RequestMapping("/habidura")
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = {"https://portfolio-frontend-natalia.web.app/","http://localhost:4200"})
 public class HabilidadDuraController {
     @Autowired
     HabilidadDuraService sHD;
