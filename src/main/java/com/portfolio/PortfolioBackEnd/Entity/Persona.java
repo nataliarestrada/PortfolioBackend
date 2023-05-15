@@ -7,6 +7,7 @@ package com.portfolio.PortfolioBackEnd.Entity;
 
 import java.io.Serializable;
 import java.util.List;
+import javax.persistence.Column;
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
@@ -40,6 +41,7 @@ public class Persona {
     @Size(max = 500, message = "excedio la longitud")
     private String instagramUrl;
     @Size(max = 500, message = "excedio la longitud")
+    @Column(columnDefinition = "VARCHAR(500) CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci")
     private String descripcion;
     @Size(max = 500, message = "excedio la longitud")
     private String imgUrl;
