@@ -65,9 +65,6 @@ public class PersonaController {
         if(StringUtils.isBlank(dtopers.getNombre())){
             return new ResponseEntity(new Mensaje("El nombre es obligatorio"), HttpStatus.BAD_REQUEST);
         }
-//        if(personaService.existsByNombreE(dtopers.getNombre())){
-//            return new ResponseEntity(new Mensaje("Ese nombre ya existe"), HttpStatus.BAD_REQUEST);
-//        }
         
         Persona persona = new Persona(
                 dtopers.getNombre(), dtopers.getOcupacion(), dtopers.getBannerUrl(), dtopers.getEmail()
@@ -84,9 +81,7 @@ public class PersonaController {
         if(!personaService.existsById(id)){
             return new ResponseEntity(new Mensaje("No existe el ID"), HttpStatus.NOT_FOUND);
         }
-//        if(personaService.existsByNombre(dtopersona.getNombre()) && personaService.getByNombre(dtopersona.getNombre()).get().getId() != id){
-//            return new ResponseEntity(new Mensaje("Ese nombre ya existe"), HttpStatus.BAD_REQUEST);
-//        }
+
         if(StringUtils.isBlank(dtopersona.getNombre())){
             return new ResponseEntity(new Mensaje("El campo no puede estar vacio"), HttpStatus.BAD_REQUEST);
         }

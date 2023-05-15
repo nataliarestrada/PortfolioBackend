@@ -11,9 +11,5 @@ package com.portfolio.PortfolioBackEnd.Interface;
  * @author natal
  */
 public interface ExperienciaInterface {
-//    public void crearExperiencia(ExperienciaDto expe);
-//       
-//    public boolean editarExperiencia(int id, ExperienciaDto expe);
-//    
-//    public void borrarExperiencia(int id);
+
 }

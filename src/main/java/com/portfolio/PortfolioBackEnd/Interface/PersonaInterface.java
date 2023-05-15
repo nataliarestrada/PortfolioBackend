@@ -12,15 +12,5 @@ package com.portfolio.PortfolioBackEnd.Interface;
  */
 public interface PersonaInterface {
     
-//    
-//    public void verPersonaId(int id);
-//    
-//    public void crearPersona(PersonaDto pers);
-//    
-//    public boolean editarPersona(int id, PersonaDto pers);
-//    
-//    public void borrarPersona(int id);
-//    
-    
     
 }
