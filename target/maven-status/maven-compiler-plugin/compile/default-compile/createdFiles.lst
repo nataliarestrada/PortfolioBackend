@@ -43,7 +43,6 @@ com\portfolio\PortfolioBackEnd\Interface\ProyectoInterface.class
 com\portfolio\PortfolioBackEnd\Interface\EducacionInterface.class
 com\portfolio\PortfolioBackEnd\Interface\HabilidadDuraInterface.class
 com\portfolio\PortfolioBackEnd\Repository\HabilidadDuraRepository.class
-com\portfolio\PortfolioBackEnd\WebConfig.class
 com\portfolio\PortfolioBackEnd\Security\jwt\JwtTokenFilter.class
 com\portfolio\PortfolioBackEnd\Security\jwt\JwtEntryPoint.class
 com\portfolio\PortfolioBackEnd\Dto\HabilidadDuraDto.class
